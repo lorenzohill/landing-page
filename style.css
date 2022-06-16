@@ -68,8 +68,8 @@ li{
     height: 256px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 512px;
+    justify-content: space-around;
+    padding: 2em;
 }
 
 .hero h1, .hero p{
@@ -85,4 +85,97 @@ li{
 img{
     height: 186px;
     width: auto;
+}
+
+button{
+    background-color: #2882f6;
+    color: white;
+    font-weight: 600;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 8px;
+    width: 70px;
+}
+
+.content{
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    margin: 1em;
+    width: 90%;
+}
+
+
+.quote{
+    height: 256px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-inner{
+    background-color: #3882f6;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:128px;
+    color: white;
+}
+
+.cta-inner button{
+    border-width: 3px;
+    border-color: white;
+    width: 128px;
+    border-style: solid;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 1em;
+    width: 70%;
+}
+
+.book{
+    width: 100px;
+    height: 100px;
+}
+
+.book-container{
+    border: #1F2937;
+    border-width: 5px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book-container p{
+    margin-top: 1em;
+}
+
+@media (max-width: 645px){
+    .quote-text{
+        font-size: 24px;
+    }
 }
