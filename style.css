@@ -23,7 +23,7 @@ header, footer{
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer{
@@ -37,6 +37,7 @@ footer p{
 
 header h1{
     color: white;
+    margin-left: 50px;
     
 }
 
@@ -49,8 +50,39 @@ header li {
     list-style-type: none; /* Remove bullets */
     display: flex;
     gap: 8px;
+    
 }
 
 ul {
     display: flex;
+    gap: 8px;
+    margin-right: 50px;
+}
+
+li{
+    gap: 8px;
+}
+
+.hero{
+    background-color: #1F2937;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 512px;
+}
+
+.hero h1, .hero p{
+    color: #f9faf8
+
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img{
+    height: 186px;
+    width: auto;
 }
